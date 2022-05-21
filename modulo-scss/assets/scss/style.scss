@@ -1,11 +1,6 @@
-.btn{
-    width: 200px;
-    padding: 10px 0;
-    background: none;
-    border: 0;
-    border-radius: 10px;
-}
-.btn-laranja{
-    @extend .btn;
-    background: orange;
+@import"./variaveis.scss";
+@import "./button.scss";
+p{
+    color: $color-orange;
+    /* padding: $padding-p; */
 }

@@ -1,6 +1,7 @@
+/* $padding-p:10px; */
 .btn, .btn-laranja {
   width: 200px;
-  padding: 10px 0;
+  padding: 10px;
   background: none;
   border: 0;
   border-radius: 10px;
@@ -8,6 +9,11 @@
 
 .btn-laranja {
   background: orange;
+}
+
+p {
+  color: orange;
+  /* padding: $padding-p; */
 }
 
 /*# sourceMappingURL=style.css.map */
