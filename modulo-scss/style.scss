@@ -6,9 +6,11 @@ p{
     b{
         background: black;
     }
+    
+    &:hover{
+        color: yellow;
+    }
 }
 
-body{
-    color: blue;
-}
+
 
