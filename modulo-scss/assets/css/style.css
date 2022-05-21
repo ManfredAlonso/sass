@@ -1,5 +1,5 @@
 /* $padding-p:10px; */
-.btn-laranja {
+.btn {
   width: 200px;
   padding: 10px;
   background: none;
@@ -7,30 +7,16 @@
   border-radius: 10px;
   display: block;
   margin: 10px;
+}
+.btn.btn-laranja {
   background: orange;
   color: #fff;
 }
-
-.btn-roxo {
-  width: 200px;
-  padding: 10px;
-  background: none;
-  border: 0;
-  border-radius: 10px;
-  display: block;
-  margin: 10px;
+.btn.btn-roxo {
   background: purple;
   color: #fff;
 }
-
-.btn-amarelo {
-  width: 200px;
-  padding: 10px;
-  background: none;
-  border: 0;
-  border-radius: 10px;
-  display: block;
-  margin: 10px;
+.btn.btn-amarelo {
   background: yellow;
   color: black;
 }
